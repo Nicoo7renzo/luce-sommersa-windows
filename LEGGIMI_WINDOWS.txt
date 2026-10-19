@@ -1,0 +1,31 @@
+LUCE SOMMERSA — VERSIONE WINDOWS
+
+IMPORTANTE
+Questo pacchetto contiene il gioco e lo script per creare LuceSommersa.exe.
+L'eseguibile Windows non è stato generato qui: la preparazione viene fatta
+su un PC Windows, perché l'ambiente in cui è stato preparato il pacchetto è Linux.
+
+COME CREARE L'EXE
+1. Estrai tutto lo ZIP in una cartella normale (non avviare il BAT dentro lo ZIP).
+2. Installa Python 3.11 o 3.12 da https://www.python.org/downloads/windows/
+   Durante l'installazione spunta "Add python.exe to PATH".
+3. Fai doppio clic su CREA_EXE_WINDOWS.bat.
+4. Attendi che installi pygame/PyInstaller e termini la compilazione.
+5. Trovi il gioco in dist\LuceSommersa.exe.
+
+Il primo avvio dello script richiede Internet per scaricare le dipendenze.
+Dopo la compilazione, per giocare basta aprire LuceSommersa.exe.
+Windows Defender o SmartScreen potrebbero mostrare un avviso perché l'EXE
+è compilato localmente e non è firmato digitalmente.
+
+CONTROLLI
+WASD / frecce: movimento
+SHIFT: scatto
+E: interagisci
+M: audio
+INVIO: conferma / inizio
+ESC: esci
+
+NOTA
+La compilazione è stata predisposta ma non è stata eseguita o testata su Windows
+in questa sessione. Se il BAT mostra un errore, invia una foto o copia il testo.
